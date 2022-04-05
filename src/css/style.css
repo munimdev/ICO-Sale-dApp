@@ -1,0 +1,54 @@
+@import url('https://utilitypad.vc/public/home_page/style.css');
+* {
+    box-sizing: content-box;
+}
+
+.app-title {
+    font-weight: 200;
+}
+
+.progress-bar-striped {
+    background-color: #3afce9;
+    background-image: unset;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.app-cta {
+    border: 1px solid #3afce9;
+    padding: 1rem 2rem;
+    border-radius: 15px;
+}
+
+.cta-info {
+    color: #3afce9;
+    font-weight: 400;
+}
+
+.pre-sale {
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+
+.buy-btn:hover {
+    background-color: black;
+}
+
+#numberOfTokens {
+    width: 80%;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#numberOfTokens::-webkit-outer-spin-button,
+#numberOfTokens::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: textfield;
+    margin: 0;
+}

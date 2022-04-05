@@ -1,0 +1,14 @@
+1. tokenPrice in wUTILTokenSale is represented in USD with 8 decimals.
+   e.g., $1 is represented as 100000000. Similarly, $0.04 is represented as 4000000.
+
+2. minimumInvestment in wUTILTokenSale is also represented in USD with 8 decimals.
+
+3. In order for people to buy tokens for your ICO, you must first transfer your desired amount
+   of tokens to the address of wUTILTokenSale smart contract.
+   
+   Please note: The wUTIL token has 18 decimals. This means that the smallest unit is
+                1000000000000000000. In other words, 1 wUTIL token is written as 1000000000000000000.
+
+                Therefore, in order to transfer X no. of tokens to any address, simply append
+                18 zero's to your amount. e.g, To transfer 50 tokens someone, use the transfer function
+                to send 50000000000000000000 tokens.
